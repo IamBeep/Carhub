@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+    width: 100%;
+}
+
+ul{
+	padding-right: 50px;
+}
+
+li{
+	padding-right: 50px;
+}
+
+.carousel-item {
+	padding: 10% 25%;
+	text-align: center;
+
+}
+
+.header{
+	text-align: center;
+	color: #1297F6; 
+}
+
+
+
+#home-keys .stock {
+    background-image: url(assets/stock.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+
+#home-keys .reviews {
+    background-image: url(assets/review.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+      -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+    
+    
+}
+#home-keys .finance {
+    background-image: url(assets/finance.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+      -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+    
+    
+}
+
+#home-keys .keys-item a {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: block;
+    height: inherit;
+    padding: 137px 0 0 0;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+   
+   
+}
+ #home-keys .keys-item a:hover {
+    text-decoration: none;
+    background: rgba(0,0,0,0.6);
+    height: 300px;
+}
+
+#home-featured {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+    margin: 0 0 1px 0;
+    text-align: center;
+}
+
+#home-featured .carousel{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+#home-featured .title {
+    font-family: Montserrat;
+    display: block;
+    max-width: 90%;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto 30px auto;
+    color: #4d4e4f;
+}
+
+#home-featured .featured-icon {
+     width: 60px;
+    margin: 0 0 5px;
+
+
+}
+ 
+#home-featured .container h1{
+	color:#ffff;
+}   
+
+
+#home-featured .carousel .item {
+    text-align: center;
+}
+
+#home-featured .carousel .item h3 a {
+     display: block;
+    width: 90%;
+    font-size: 22px;
+    color: #1297F6;
+    margin: 12px auto 6px;
+}
+
+#home-featured .carousel .item h3 a:hover {
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    background: #329fb1;
+    padding: 40px 0 45px 0;
+    margin: 20px 0 0 0;
+    border-top: 1px solid #fff;
+    overflow: hidden;
+
+   } 
+footer .quick-links-title {
+    padding: 1% 1% 2% 1%;
+    margin: 0 0 20px;
+    font-family: Montserrat;
+    font-size: 30px;
+    letter-spacing: -1px;
+    border: 0;
+    color: #ffff;
+    text-transform: uppercase;
+
+}
+footer ul.quick-links {
+    margin: 0 2% 0 0;
+    padding: 20px 0 20px 3%;
+    border-left: 2px solid #d5d5d5;
+    list-style-type: none;
+
+}
+ 
+footer ul.quick-links li {
+    border-bottom: 1px dotted #bbb;
+    padding: 3% 1%;
+}
+
+footer ul.quick-links li a {
+    color: #090A0A;
+}
+
+
+
+
+footer .copyright .heading {
+    padding: 4px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #ffff;
+    border: 0;
+}
+footer .address {
+    margin: 20px 0px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+footer .social {
+    margin: 20px 0;
+    list-style: none;
+}
+
+footer .social li {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 5px 0 0;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+footer .social li img {
+     width: 28px;
+    margin: 3px 0 0;
+}
+
+
+#searchbox{
+    margin:-1px 0 1px 0;
+     border-top:1px solid #828384;
+     color:#fff;
+}
+ #searchbox-inner{
+    clear:both;
+     background:#329fb1;
+     padding:36px 5% 30px;
+}
+ #searchbox .subti{
+    color:#fff;
+     text-align:center;
+     margin:0 0 25px;
+     letter-spacing:0;
+}
+ #searchbox .cvselect{
+    float:left;
+     display:block;
+     width:49.6%;
+     padding:3px 0 5px 0;
+     font-family:Montserrat;
+     font-size:20px;
+     line-height:34px;
+     letter-spacing:-1px;
+     color:#FFF;
+     background-color:#555;
+     text-align:center;
+     cursor:pointer;
+}
+ #searchbox .vehtype-sel{
+    background-color:#333;
+}
+ #searchbox input[type="text"]{
+    width:93%;
+     margin:0 0 5px 0;
+}
+ #searchbox select{
+    width:100%;
+     margin:0 0 5px 0;
+}
+ #searchbox select, #searchbox input{
+    background:#000;
+     border:1px solid #333;
+     color:#fff;
+}
+ #searchbox .minPrice{
+    width:49%;
+}
+ #searchbox .maxPrice{
+    float:right;
+     width:49%;
+}
+ #searchbox #advanced li{
+    background:#eee;
+     margin:1px 0 0;
+}
+ #searchbox #advanced li .ttl{
+    padding:5% 6%;
+     background:#ddd;
+     font-family:"Montserrat";
+     font-size:19px;
+     color:#555;
+     cursor:pointer;
+}
+ #searchbox #advanced li .ttl span{
+    float:right;
+     display:inline-block;
+     color:#999;
+     font-size:22px;
+     margin:-6px 0 0;
+}
+ #searchbox #advanced li .area{
+    padding:6% 5%;
+}
+ #searchbox #advanced li .area select{
+    background:#fff;
+     border:1px solid #ddd;
+     color:#4d4e4f;
+}
+ #searchbox #advanced li .area div{
+    font-size:12px;
+     margin:4px 0 0;
+     text-align:right;
+}
+ #searchbox #advanced li div.colours{
+    text-align:center;
+}
+ #searchbox #advanced li .colours label{
+    display:inline-block;
+     width:37%;
+     height:40px;
+     line-height:40px;
+     margin:10px 5%;
+     border:1px solid #fff;
+     color:#fff;
+     position:relative;
+}
+ #searchbox #advanced li .colours input{
+    position:absolute;
+     left:0;
+     top:0;
+}
+ #searchbox .checks{
+    float:left;
+     width:48%;
+     font-size:11px;
+}
+ #searchbox .checks-r{
+    width:52%;
+}
+ #searchbox .checks .short{
+    display:none;
+}
+ #searchbox button{
+    width:100%;
+     margin:10px 0 10px 0;
+     padding:3% 0;
+     font-size:24px;
+     background:#fff;
+     border:2px solid #fff;
+     color:#636465;
+}
+ #searchbox button:hover{
+    background:transparent;
+     color:#fff;
+}
+ #searchbox #counter{
+    width:25%;
+     min-height:23px;
+     padding:5%;
+     background:#424344;
+     color:#fff;
+     font-family:'Montserrat';
+     font-size:22px;
+     text-align:center;
+}
+ #searchbox .priceSearch{
+    margin:6px 0 10px 2px;
+     overflow:hidden;
+     font-size:12px;
+}
+ #searchbox .priceSearch li{
+    display:inline-block;
+     margin:0 2% 0 0;
+     padding:2% 3%;
+     cursor:pointer;
+     color:#ddd;
+}
+ #searchbox .priceSearch li:last-child{
+    margin:0;
+}
+ #searchbox .priceSearch .sel{
+    background:#000;
+     color:#fff;
+}
+ .colour-white{
+    background:#fff;
+     color:#4d4e4f;
+}
+ .colour-black{
+    background:#000;
+}
+ .colour-silver{
+    background:#ddd;
+     color:#4d4e4f;
+}
+ .colour-red{
+    background:#c00;
+}
+ .colour-blue{
+    background:#3945a6;
+}
+ .colour-green{
+    background:#68b85d;
+}
+ .colour-bronze{
+    background:#c0855b;
+}
+ .colour-brown{
+    background:#7a4f24;
+}
+ .colour-gold{
+    background:#ea0;
+}
+ .colour-grey{
+    background:#888;
+}
+ .colour-orange{
+    background:#f60;
+}
+
+.title-area {
+    padding: 20px;
+}
+
+.title
+{
+font-family: 'Montserrat';
+color:#4d4e4f;
+font-size: 32px;
+letter-spacing: -2px;
+text-transform: uppercase;
+font-weight: normal;
+display: inline;
+}
+
+
+
+
+.page-layout div{
+	float:left; 
+	width:32px;
+	 height:31px;
+	  line-height:32px; 
+	  padding:1px 0 0; 
+	  margin:0 0 0 6px; 
+	  font-family:Montserrat;
+	   font-size:16px; 
+	   text-transform:uppercase; 
+	   color:#fff; 
+	   background:#909090; 
+	   background-size:100%; 
+	   text-align:center; 
+	   overflow:hidden; 
+	   cursor:pointer;
+	}
+
+.page-layout div:hover
+{
+	background-color:#ccc;
+}
+
+.page-layout div.sel 
+{
+    background-color: transparent;
+    background-position: bottom;
+    cursor: default;
+}
+
+.page-layout div.list {
+    background-image: url();
+}
+.page-layout div.gallery {
+    background-image: url();
+}
+
+
+.page-layout div {
+    float: left;
+    width: 32px;
+    height: 31px;
+    line-height: 32px;
+    padding: 1px 0 0;
+    margin: 0 0 0 6px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ffff;
+    background-size: 100%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    }
+
+
+select.carsPerPage {
+    margin-left: 2%;
+    padding: 7px;
+    border: 1px solid #CCC;
+    font-size: 11px;
+}
+
+select.carsPerPage option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px; 
+}
+   
+
+#overlay 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#overlay div {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-32px;
+	margin-left:-32px;
+}
+
+
+.team-row{
+    display: inline-flex;
+}
+
+.team .img{
+	
+    max-width: 90%;
+    align-items: center;
+    
+}
+
+.team h2{
+	color: #ffff;
+	font-weight: bold;
+	font-family: "Montserrat";
+
+}
+
+.team p{
+	color: #1297F6;
+}
+
+#stock-featured {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+    margin: 0 0 1px 0;
+    text-align: center;
+}
+
+.row1
+            {
+                padding-left: 20px;
+                display: inline-flex;   
+                margin: 10px 10px 10px 10px;
+                padding: 10px 10px 10px 10px;
+            }
+
+
+
+.bg{
+    background: url('assets/giphy.gif');
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    font-color:#fff;
+
+}
+
+.form-container{
+    position: absolute;
+    top:15px;
+    background:#329fb1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-top: 100px;
+}
+
+.btn-block{
+    padding: 10px;
+    margin-top: 15px;
+    width: 100px;
+
+}
+
+.sign-up{
+    margin-left:15px;
+    background-color: green;
+}
+
+.sign-up:hover{
+    box-shadow: inset 300px 0 0 0 #454B1B;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 678px){
+    .bg{
+        background-size: 300%;
+    }
+}
+
+.bg2{
+    background: url('assets/giphy2.gif');
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    font-color:#fff;
+
+}
+
+.submit2:hover{
+    box-shadow:inset 300px 0 0 0 green; 
+}
+
+@media only screen and (max-width: 678px){
+    .bg2{
+        background-size: 300%;
+    }
+}
+
+
+.header h2{
+    margin-top: 25px;
+}
+
+.manage-account{
+    color: #c0c0c0;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 0px #329fb1;
+}
+
+.header h2{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.logout{
+    text-align: right;
+    margin-left: 1135px;
+}
+
+.log-out{
+    margin-left:15px;
+    background-color:#329fb1 ;
+}
+
+.log-out:hover{
+    box-shadow: inset 300px 0 0 0 red;
+}
+
+.dealer{
+    text-align: right;
+    margin-left: 1080px;
+    margin-top: 0px;
+}
+
+.dealership{
+    margin-left:15px;
+    background-color:#329fb1;
+    width: 150px;
+}
+
+.dealership:hover{
+    box-shadow: inset 300px 0 0 0 green;
+}
+
+.order-table-div{
+    width: 100%;
+    color: #c0c0c0;
+    border:20px #329fb1; 
+    box-shadow: 0px 0px 10px 0px #329fb1;
+    margin-top: 55px;
+    margin-bottom: 70px;
+   
+}
+
+.order-table{
+    width: inherit;
+}
+
+.order-table th{
+    background: #329fb1;
+}
+
+.order-table td{
+    background: black;
+}
+
+.order-table th td{
+    padding: 15px;
+}
+
+
+
+.user-rating{
+    width: 100%;
+    margin-left: 100px;
+}
+
+.user-rating h2{
+    color: #329fb1;
+    
+}
+
+
+.checked{
+    color: #fff;
+}
+
+body{
+    width: 100%;
+}
+
+.about-us img{
+    width: 1000px;
+    text-align: center;
+    margin-left: 180px;
+
+}
+
+
+.about-us h1{
+    margin: 30px;
+    color: #329fb1;
+}
+
+.about-us p{
+    text-align: justify;
+    margin: 30px;
+    color: #c0c0c0;
+}
+
+.about-row{
+    display: inline-flex;
+}
+
+.opening-hours h2{
+    color: #329fb1;
+}
+
+.opening-hours p{
+    color: #c0c0c0;
+}
+
+.opening-hours{
+    margin-top: 50px;
+}
+
+.opening{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    box-shadow: 0px 0px 10px 0px #329fb1
+}
+
+.opening img{
+    margin-left: 90px;
+}
+
+.featured-brands h2{
+    color: #c0c0c0;
+    font-weight: bolder;
+    
+    margin-bottom: 30px;
+    text-align:center;
+}
+
+.brands-logo{
+    display: inline-flex;
+    text-align:center;
+    box-shadow: 0px 0px 10px 0px #329fb1;
+    margin-bottom: 50px;
+    margin-left: 8px;
+}

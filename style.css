@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+}
+
+ul{
+	padding-right: 50px;
+}
+
+li{
+	padding-right: 50px;
+}
+
+
+
+.header{
+	text-align: center;
+	color: #1297F6;
+}
+
+
+
+#home-keys .stock {
+    background-image: url(assets/stock.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+
+#home-keys .reviews {
+    background-image: url(assets/review.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+      -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+
+
+}
+#home-keys .finance {
+    background-image: url(assets/finance.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+      -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+
+
+}
+
+#home-keys .keys-item a {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    display: block;
+    height: inherit;
+    padding: 137px 0 0 0;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+ #home-keys .keys-item a:hover {
+    text-decoration: none;
+    background: rgba(0,0,0,0.6);
+    height: 300px;
+}
+
+#home-featured {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+    margin: 0 0 1px 0;
+    text-align: center;
+}
+
+#home-featured .carousel{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+#home-featured .title {
+    font-family: Montserrat;
+    display: block;
+    max-width: 90%;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto 30px auto;
+    color: #4d4e4f;
+}
+
+#home-featured .featured-icon {
+     width: 60px;
+    margin: 0 0 5px;
+
+
+}
+
+#home-featured .container h1{
+	color:#ffff;
+}
+
+
+#home-featured .carousel .item {
+    text-align: center;
+}
+
+#home-featured .carousel .item h3 a {
+     display: block;
+    width: 90%;
+    font-size: 22px;
+    color: #1297F6;
+    margin: 12px auto 6px;
+}
+
+#home-featured .carousel .item h3 a:hover {
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    background: #329fb1;
+    padding: 40px 0 45px 0;
+    margin: 20px 0 0 0;
+    border-top: 1px solid #fff;
+    overflow: hidden;
+
+   }
+footer .quick-links-title {
+    padding: 1% 1% 2% 1%;
+    margin: 0 0 20px;
+    font-family: Montserrat;
+    font-size: 30px;
+    letter-spacing: -1px;
+    border: 0;
+    color: #ffff;
+    text-transform: uppercase;
+
+}
+footer ul.quick-links {
+    margin: 0 2% 0 0;
+    padding: 20px 0 20px 3%;
+    border-left: 2px solid #d5d5d5;
+    list-style-type: none;
+
+}
+
+footer ul.quick-links li {
+    border-bottom: 1px dotted #bbb;
+    padding: 3% 1%;
+}
+
+footer ul.quick-links li a {
+    color: #090A0A;
+}
+
+
+
+
+footer .copyright .heading {
+    padding: 4px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #ffff;
+    border: 0;
+}
+footer .address {
+    margin: 20px 0px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+footer .social {
+    margin: 20px 0;
+    list-style: none;
+}
+
+footer .social li {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 5px 0 0;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+footer .social li img {
+     width: 28px;
+    margin: 3px 0 0;
+}
+
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+#searchbox{
+    margin:-1px 0 1px 0;
+     border-top:1px solid #828384;
+     color:#fff;
+}
+ #searchbox-inner{
+    clear:both;
+     background:#329fb1;
+     padding:36px 5% 30px;
+}
+ #searchbox .subti{
+    color:#fff;
+     text-align:center;
+     margin:0 0 25px;
+     letter-spacing:0;
+}
+ #searchbox .cvselect{
+    float:left;
+     display:block;
+     width:49.6%;
+     padding:3px 0 5px 0;
+     font-family:Montserrat;
+     font-size:20px;
+     line-height:34px;
+     letter-spacing:-1px;
+     color:#FFF;
+     background-color:#555;
+     text-align:center;
+     cursor:pointer;
+}
+ #searchbox .vehtype-sel{
+    background-color:#333;
+}
+ #searchbox input[type="text"]{
+    width:93%;
+     margin:0 0 5px 0;
+}
+ #searchbox select{
+    width:100%;
+     margin:0 0 5px 0;
+}
+ #searchbox select, #searchbox input{
+    background:#000;
+     border:1px solid #333;
+     color:#fff;
+}
+ #searchbox .minPrice{
+    width:49%;
+}
+ #searchbox .maxPrice{
+    float:right;
+     width:49%;
+}
+ #searchbox #advanced li{
+    background:#eee;
+     margin:1px 0 0;
+}
+ #searchbox #advanced li .ttl{
+    padding:5% 6%;
+     background:#ddd;
+     font-family:"Montserrat";
+     font-size:19px;
+     color:#555;
+     cursor:pointer;
+}
+ #searchbox #advanced li .ttl span{
+    float:right;
+     display:inline-block;
+     color:#999;
+     font-size:22px;
+     margin:-6px 0 0;
+}
+ #searchbox #advanced li .area{
+    padding:6% 5%;
+}
+ #searchbox #advanced li .area select{
+    background:#fff;
+     border:1px solid #ddd;
+     color:#4d4e4f;
+}
+ #searchbox #advanced li .area div{
+    font-size:12px;
+     margin:4px 0 0;
+     text-align:right;
+}
+ #searchbox #advanced li div.colours{
+    text-align:center;
+}
+ #searchbox #advanced li .colours label{
+    display:inline-block;
+     width:37%;
+     height:40px;
+     line-height:40px;
+     margin:10px 5%;
+     border:1px solid #fff;
+     color:#fff;
+     position:relative;
+}
+ #searchbox #advanced li .colours input{
+    position:absolute;
+     left:0;
+     top:0;
+}
+ #searchbox .checks{
+    float:left;
+     width:48%;
+     font-size:11px;
+}
+ #searchbox .checks-r{
+    width:52%;
+}
+ #searchbox .checks .short{
+    display:none;
+}
+ #searchbox button{
+    width:100%;
+     margin:10px 0 10px 0;
+     padding:3% 0;
+     font-size:24px;
+     background:#fff;
+     border:2px solid #fff;
+     color:#636465;
+}
+ #searchbox button:hover{
+    background:transparent;
+     color:#fff;
+}
+ #searchbox #counter{
+    width:25%;
+     min-height:23px;
+     padding:5%;
+     background:#424344;
+     color:#fff;
+     font-family:'Montserrat';
+     font-size:22px;
+     text-align:center;
+}
+ #searchbox .priceSearch{
+    margin:6px 0 10px 2px;
+     overflow:hidden;
+     font-size:12px;
+}
+ #searchbox .priceSearch li{
+    display:inline-block;
+     margin:0 2% 0 0;
+     padding:2% 3%;
+     cursor:pointer;
+     color:#ddd;
+}
+ #searchbox .priceSearch li:last-child{
+    margin:0;
+}
+ #searchbox .priceSearch .sel{
+    background:#000;
+     color:#fff;
+}
+ .colour-white{
+    background:#fff;
+     color:#4d4e4f !important;
+}
+ .colour-black{
+    background:#000;
+}
+ .colour-silver{
+    background:#ddd;
+     color:#4d4e4f !important;
+}
+ .colour-red{
+    background:#c00;
+}
+ .colour-blue{
+    background:#3945a6;
+}
+ .colour-green{
+    background:#68b85d;
+}
+ .colour-bronze{
+    background:#c0855b;
+}
+ .colour-brown{
+    background:#7a4f24;
+}
+ .colour-gold{
+    background:#ea0;
+}
+ .colour-grey{
+    background:#888;
+}
+ .colour-orange{
+    background:#f60;
+}
+
+.title-area {
+    padding: 20px;
+}
+
+.title
+{
+font-family: 'Montserrat';
+color:#4d4e4f;
+font-size: 32px;
+letter-spacing: -2px;
+text-transform: uppercase;
+font-weight: normal;
+display: inline;
+}
+
+
+
+
+.page-layout div{
+	float:left;
+	width:32px;
+	 height:31px;
+	  line-height:32px;
+	  padding:1px 0 0;
+	  margin:0 0 0 6px;
+	  font-family:Montserrat;
+	   font-size:16px;
+	   text-transform:uppercase;
+	   color:#fff;
+	   background:#909090;
+	   background-size:100%;
+	   text-align:center;
+	   overflow:hidden;
+	   cursor:pointer;
+	}
+
+.page-layout div:hover
+{
+	background-color:#ccc;
+}
+
+.page-layout div.sel
+{
+    background-color: transparent;
+    background-position: bottom;
+    cursor: default;
+}
+
+.page-layout div.list {
+    background-image: url();
+}
+.page-layout div.gallery {
+    background-image: url();
+}
+
+
+.page-layout div {
+    float: left;
+    width: 32px;
+    height: 31px;
+    line-height: 32px;
+    padding: 1px 0 0;
+    margin: 0 0 0 6px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ffff;
+    background-size: 100%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    }
+
+
+select.carsPerPage {
+    margin-left: 2%;
+    padding: 7px;
+    border: 1px solid #CCC;
+    font-size: 11px;
+}
+
+select.carsPerPage option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+
+#overlay
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#overlay div {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-32px;
+	margin-left:-32px;
+}
+
+#opening-hours {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+#opening h2{
+	color:#fff;
+}
+
+#opening ul.hours li {
+    padding: 2%;
+    margin: 10px;
+    border-top: 1px dotted #DDD;
+    font-weight: bold;
+    color:#fff;
+
+}
+
+
+.container-team .row{
+	display: block;
+    max-width: 90%;
+    align-items: center;
+
+}
+
+.container-team h2{
+	color: #ffff;
+	font-weight: bold;
+	font-family: "Montserrat";
+
+}
+
+.container-team p{
+	color: #1297F6;
+}
